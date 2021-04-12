@@ -1,6 +1,6 @@
 .ad-network {
     position: relative;
-    background: url(/image/svg/background01.svg) no-repeat, $mine-shaft;
+    background: url(/mirelia/image/svg/background01.svg) no-repeat, $mine-shaft;
     &__wrapper {
         max-width: 1109px;
         margin: 0 auto;
@@ -36,7 +36,7 @@
         bottom: 40px;
         right: 25%;
         transform: rotate(-10deg);
-        background: url(/image/svg/spaceman.svg) no-repeat;
+        background: url(/mirelia/image/svg/spaceman.svg) no-repeat;
         background-color: transparent;
     }
     &__start-btn {
@@ -53,6 +53,7 @@
         line-height: 21px;
         color: $white;
         transition: 0.3s;
+        
         &:hover {
             @extend %btn-hover;
         }

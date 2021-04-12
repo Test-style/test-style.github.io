@@ -3,7 +3,7 @@
         background-size: cover;
     }
     padding-bottom: 81px;
-    background: url(/image/svg/background02.svg) no-repeat,
+    background: url(/mirelia/image/svg/background02.svg) no-repeat,
         linear-gradient(to bottom, $mine-shaft 50%, $white 50%);
     background-position: top;
     &__wrapper {
@@ -64,7 +64,7 @@
         position: absolute;
         top: 22px;
         left: 0;
-        background: url(/image/svg/triangel.svg) no-repeat;
+        background: url(/mirelia/image/svg/triangel.svg) no-repeat;
         height: 28px;
         width: 28px;
     }

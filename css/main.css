@@ -538,7 +538,7 @@ body {
 
 .ad-network {
   position: relative;
-  background: url(/mirelia/image/svg/background01.svg) no-repeat, #1F1F1F;
+  background: url(./image/svg/background01.svg) no-repeat, #1F1F1F;
 }
 
 .ad-network__wrapper {
@@ -582,7 +582,7 @@ body {
   bottom: 40px;
   right: 25%;
   transform: rotate(-10deg);
-  background: url(/mirelia/image/svg/spaceman.svg) no-repeat;
+  background: url(./image/svg/spaceman.svg) no-repeat;
   background-color: transparent;
 }
 
@@ -706,7 +706,7 @@ body {
 
 .icon__fb {
   margin-right: 34px;
-  background: url(/mirelia/image/svg/facebook.svg) no-repeat;
+  background: url(./image/svg/facebook.svg) no-repeat;
 }
 
 .icon__fb:hover {
@@ -715,7 +715,7 @@ body {
 
 .icon__in {
   margin-right: 34px;
-  background: url(/mirelia/image/svg/linkedin.svg) no-repeat;
+  background: url(./image/svg/linkedin.svg) no-repeat;
 }
 
 .icon__in:hover {
@@ -724,7 +724,7 @@ body {
 
 .icon__isg {
   margin-right: 34px;
-  background: url(/mirelia/image/svg/instagram.svg) no-repeat;
+  background: url(./image/svg/instagram.svg) no-repeat;
 }
 
 .icon__isg:hover {
@@ -732,7 +732,7 @@ body {
 }
 
 .icon__tw {
-  background: url(/mirelia/image/svg/twitter.svg) no-repeat;
+  background: url(./image/svg/twitter.svg) no-repeat;
 }
 
 .icon__tw:hover {
@@ -911,7 +911,7 @@ body {
 
 .ad-formats-section {
   padding-bottom: 81px;
-  background: url(/mirelia/image/svg/background02.svg) no-repeat, linear-gradient(to bottom, #1F1F1F 50%, #ffffff 50%);
+  background: url(./image/svg/background02.svg) no-repeat, linear-gradient(to bottom, #1F1F1F 50%, #ffffff 50%);
   background-position: top;
 }
 
@@ -998,7 +998,7 @@ body {
   position: absolute;
   top: 22px;
   left: 0;
-  background: url(/mirelia/image/svg/triangel.svg) no-repeat;
+  background: url(./image/svg/triangel.svg) no-repeat;
   height: 28px;
   width: 28px;
 }
@@ -1093,7 +1093,7 @@ body {
 }
 
 .logo-section {
-  background: #ffffff url(/mirelia/image/svg/background03.svg) no-repeat;
+  background: #ffffff url(./image/svg/background03.svg) no-repeat;
 }
 
 @media screen and (max-width: 767px) {
@@ -1126,7 +1126,7 @@ body {
 
 .increas-leads-section {
   position: relative;
-  background: url(/mirelia/image/svg/background04.svg);
+  background: url(./image/svg/background04.svg);
 }
 
 .increas-leads-section__wrapper {
@@ -1216,7 +1216,7 @@ body {
 }
 
 .about-innovative {
-  background: url(/mirelia/image/svg/background05.svg) no-repeat;
+  background: url(./image/svg/background05.svg) no-repeat;
   background-size: cover;
   padding: 0 10px;
 }
@@ -1342,7 +1342,7 @@ body {
 
 .whyus-section {
   padding: 123px 0 100px;
-  background: url(/mirelia/image/svg/background06.svg) no-repeat, linear-gradient(to bottom, #1F1F1F 50%, #ffffff 50%);
+  background: url(./image/svg/background06.svg) no-repeat, linear-gradient(to bottom, #1F1F1F 50%, #ffffff 50%);
   background-position: top;
   background-size: cover;
 }
@@ -1460,28 +1460,28 @@ body {
 }
 
 .picture-block__arrow-prev_thin {
-  background: transparent url(/mirelia/image/svg/about-arrow-prev-thin.svg) no-repeat;
+  background: transparent url(./image/svg/about-arrow-prev-thin.svg) no-repeat;
   background-position-y: center;
 }
 
 .picture-block__arrow-prev_thick {
-  background: transparent url(/mirelia/image/svg/about-arrow-prev-thick.svg) no-repeat;
+  background: transparent url(./image/svg/about-arrow-prev-thick.svg) no-repeat;
   background-position-y: center;
 }
 
 .picture-block__arrow-next_thick {
-  background: transparent url(/mirelia/image/svg/about-arrow-next-thick.svg) no-repeat;
+  background: transparent url(./image/svg/about-arrow-next-thick.svg) no-repeat;
   background-position-y: center;
 }
 
 .picture-block__arrow-next_thin {
-  background: transparent url(/mirelia/image/svg/about-arrow-next-thin.svg) no-repeat;
+  background: transparent url(./image/svg/about-arrow-next-thin.svg) no-repeat;
   background-position-y: center;
 }
 
 .values-section {
   padding: 158px 10px 100px;
-  background: #ffffff url(/mirelia/image/svg/background08.svg) no-repeat;
+  background: #ffffff url(./image/svg/background08.svg) no-repeat;
   background-size: cover;
 }
 
@@ -1537,7 +1537,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  background: #1F1F1F url(/mirelia/image/svg/background09.svg) no-repeat;
+  background: #1F1F1F url(./image/svg/background09.svg) no-repeat;
   background-size: cover;
   padding: 100px 0 82px 0;
 }
@@ -1716,7 +1716,7 @@ main.blog-page-main {
   background: #ea5289;
   border: none;
   border-radius: 0px 6px 6px 0px;
-  background-image: url(/mirelia/image/svg/blog-lens.svg);
+  background-image: url(./image/svg/blog-lens.svg);
   background-position: center;
   background-repeat: no-repeat;
   cursor: pointer;
@@ -1776,7 +1776,7 @@ main.blog-page-main {
   left: 0px;
   width: 18px;
   height: 23px;
-  background-image: url(/mirelia/image/svg/blog-calendar-icon.svg);
+  background-image: url(./image/svg/blog-calendar-icon.svg);
 }
 
 .blog-content-card__caption {
@@ -1900,7 +1900,7 @@ main.blog-page-main {
   left: 0px;
   width: 18px;
   height: 23px;
-  background-image: url(/mirelia/image/svg/blog-calendar-icon.svg);
+  background-image: url(./image/svg/blog-calendar-icon.svg);
 }
 
 .blog-article__text-wraper {
@@ -2036,7 +2036,7 @@ main.blog-page-main {
   box-shadow: none;
   appearance: none;
   background-color: #f1f1f1;
-  background-image: url(/mirelia/image/svg/contact-icon-select.svg), linear-gradient(to bottom, #f1f1f1 0%, #f1f1f1 100%);
+  background-image: url(./image/svg/contact-icon-select.svg), linear-gradient(to bottom, #f1f1f1 0%, #f1f1f1 100%);
   background-repeat: no-repeat, repeat;
   background-position: right 0.7em top 50%, 0 0;
   background-size: 0.65em auto, 100%;
@@ -2230,7 +2230,7 @@ main.blog-page-main {
   position: absolute;
   top: 2px;
   left: -25px;
-  background: url(/mirelia/image/svg/triangel.svg) no-repeat;
+  background: url(./image/svg/triangel.svg) no-repeat;
   height: 28px;
   width: 28px;
 }
@@ -2246,7 +2246,7 @@ main.blog-page-main {
 
 .advertisers-how-start {
   padding-bottom: 134px;
-  background: url(/mirelia/image/svg/background11.svg) no-repeat;
+  background: url(./image/svg/background11.svg) no-repeat;
   background-position-y: -45px;
   background-size: cover;
 }
@@ -2312,7 +2312,7 @@ main.blog-page-main {
   height: 101px;
   top: -40px;
   right: -110px;
-  background: url(/mirelia/image/svg/advertisers-arrow.svg) no-repeat;
+  background: url(./image/svg/advertisers-arrow.svg) no-repeat;
 }
 
 @media screen and (max-width: 479px) {
@@ -2340,11 +2340,11 @@ main.blog-page-main {
 }
 
 .traffic-section {
-  background: url(/mirelia/image/svg/background10.svg) no-repeat;
+  background: url(./image/svg/background10.svg) no-repeat;
 }
 
 .affiliates-header {
-  background: url(/mirelia/image/svg/background12.svg) no-repeat;
+  background: url(./image/svg/background12.svg) no-repeat;
   background-color: #1F1F1F;
   background-position-y: -90px;
 }
@@ -2477,7 +2477,7 @@ main.blog-page-main {
 }
 
 .affiliates-dating-vertical {
-  background: url(/mirelia/image/svg/background13.svg) no-repeat;
+  background: url(./image/svg/background13.svg) no-repeat;
   background-color: #1F1F1F;
   padding-top: 124px;
   padding-bottom: 148px;
@@ -2729,7 +2729,7 @@ main.blog-page-main {
   box-shadow: none;
   appearance: none;
   background-color: #f1f1f1;
-  background-image: url(/mirelia/image/svg/contact-icon-select.svg), linear-gradient(to bottom, #f1f1f1 0%, #f1f1f1 100%);
+  background-image: url(./image/svg/contact-icon-select.svg), linear-gradient(to bottom, #f1f1f1 0%, #f1f1f1 100%);
   background-repeat: no-repeat, repeat;
   background-position: right 0.7em top 50%, 0 0;
   background-size: 0.65em auto, 100%;
@@ -2859,7 +2859,7 @@ main.blog-page-main {
 }
 
 .referral-card-block {
-  background: #1F1F1F url("/mirelia/image/svg/background14e.svg") no-repeat;
+  background: #1F1F1F url(./image/svg/background14e.svg) no-repeat;
   background-size: cover;
 }
 
@@ -2981,7 +2981,7 @@ main.blog-page-main {
   left: 0;
   width: 24px;
   height: 24px;
-  background: url(/mirelia/image/svg/download.svg) no-repeat;
+  background: url(./image/svg/download.svg) no-repeat;
 }
 
 .policy__wrapper ol,
@@ -3085,7 +3085,7 @@ span.color-text {
 .error-header__btn {
   width: 20px;
   height: 34px;
-  background: url(/mirelia/image/svg/error-select.svg) no-repeat;
+  background: url(./image/svg/error-select.svg) no-repeat;
   background-position: center;
   border: none;
   color: transparent;
