@@ -1,0 +1,26 @@
+@import "abstracts/variables", "abstracts/mixins", "abstracts/placeholders";
+
+@import "vendors/normalize";
+
+@import "base/typography", "base/base";
+
+@import "layout/index-header", "layout/index-ad-network", "layout/index-footer",
+    "layout/index-advertise", "layout/index-ad-formats",
+    "layout/index-targeting", "layout/index-logo-section",
+    "layout/index-increas-leads";
+
+@import "layout/about-innovative", "layout/about-reach", "layout/about-whyus",
+    "layout/about-picture-block", "layout/about-values",
+    "layout/about-solutions", "layout/about-start-btn";
+
+@import "layout/blog", "layout/blog-article", "layout/contact";
+
+@import "layout/advertisers-withus", "layout/advertisers-how-start",
+    "layout/advertisers-traffic";
+
+@import "layout/affiliate-start-block", "layout/affiliates-dating-vertical",
+    "layout/affiliate-why", 'layout/affiliate-signup';
+
+@import "layout/referral-article", "layout/referral-card-block";
+
+@import "layout/policy", 'layout/terms', 'layout/error-404';

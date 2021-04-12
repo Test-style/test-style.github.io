@@ -1,0 +1,51 @@
+.referral-card-block {
+    background: $mine-shaft url(/image/svg/background14e.svg) no-repeat;
+    background-size: cover;
+    &__wrapper {
+        max-width: 1110px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: space-between;
+        padding: 140px 10px 109px;
+    }
+}
+.referral-card {
+    &__wrapper {
+        @media screen and (max-width: $screen-md) {
+            width: 100%;
+        }
+        width: 32%;
+        background-color: $white;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 31px 36px;
+        border-radius: 20px;
+    }
+    &__title {
+        width: 100%;
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 900;
+        font-size: 21px;
+        line-height: 25px;
+        text-transform: uppercase;
+        color: $eminence;
+        margin: 0;
+    }
+    &__text {
+        font-family: "Lato";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 25px;
+        color: $emperor;
+        margin: 9px 0 0;
+        &-email {
+            font-weight: bold;
+            color: #f3a132;
+        }
+    }
+}

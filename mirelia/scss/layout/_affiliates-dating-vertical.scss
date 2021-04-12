@@ -1,0 +1,67 @@
+.affiliates-dating-vertical {
+    @media screen and (max-width: $screen-sd) {
+        background: none;
+        background-color: #fff;
+        padding-top: 24px;
+        padding-bottom: 48px;
+    }
+    background: url(/image/svg/background13.svg) no-repeat;
+    background-color: $mine-shaft;
+    padding-top: 124px;
+    padding-bottom: 148px;
+    &__wrapper {
+        max-width: 1109px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    &__title {
+        width: 100%;
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 66px;
+        text-align: center;
+        text-transform: uppercase;
+        color: $mine-shaft;
+        margin: 0;
+    }
+    &__text {
+        width: 100%;
+        font-family: "Lato";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 25px;
+        text-align: center;
+        color: $emperor;
+        margin: 35px 0;
+    }
+    &__pic-block {
+        margin: 0 auto;
+        max-width: 702px;
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+    }
+}
+.pic-block__img {
+    @media screen and (max-width: $screen-sd) {
+        font-size: 22px;
+        line-height: 17px;
+
+    }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 78px;
+    height: 78px;
+    background: $eminence;
+    border-radius: 18px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 25px;
+    color: $white;
+}

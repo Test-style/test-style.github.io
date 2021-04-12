@@ -1,0 +1,60 @@
+.ad-network {
+    position: relative;
+    background: url(/image/svg/background01.svg) no-repeat, $mine-shaft;
+    &__wrapper {
+        max-width: 1109px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-bottom: 254px;
+    }
+    &__caption {
+        margin: 175px 0 48px;
+        width: 100%;
+        &-row {
+            @media screen and (max-width: $screen-sd) {
+                font-size: 32px;
+                line-height: 27px;
+            }
+            font-family: "Montserrat";
+            font-style: normal;
+            font-weight: 900;
+            font-size: 40px;
+            line-height: 50px;
+            margin: 0;
+            color: $white;
+            text-align: center;
+            text-transform: uppercase;
+            color: $white;
+        }
+    }
+    &__spaceman {
+        position: absolute;
+        width: 118px;
+        height: 125px;
+        bottom: 40px;
+        right: 25%;
+        transform: rotate(-10deg);
+        background: url(/image/svg/spaceman.svg) no-repeat;
+        background-color: transparent;
+    }
+    &__start-btn {
+        width: 280px;
+        height: 72px;
+        border: none;
+        border-radius: 60px;
+        background: $french-rose;
+        cursor: pointer;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+        color: $white;
+        transition: 0.3s;
+        &:hover {
+            @extend %btn-hover;
+        }
+    }
+}

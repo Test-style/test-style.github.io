@@ -1,0 +1,81 @@
+.affiliates {
+    &-why {
+        &-section {
+            background-color: $mine-shaft;
+        }
+        &__wrapper {
+            @media screen and (max-width: $screen-md) {
+                flex-wrap: wrap;
+            }
+            max-width: 1110px;
+            margin: 0 auto;
+            padding: 104px 10px 135px;
+            display: flex;
+            justify-content: space-between;
+        }
+        &__advantages {
+            padding-left: 40px;
+            max-width: 610px;
+        }
+        &__payment-method {
+            max-width: 412px;
+        }
+    }
+}
+.business-models {
+    @media screen and (max-width: $screen-md) {
+        width: 100%;
+        text-align: center;
+    }
+    &__subtitle {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 50px;
+        text-transform: uppercase;
+        color: $white;
+        margin: 0;
+    }
+    &__card-wrapper {
+        @media screen and (max-width: $screen-md) {
+            max-width: 100%;
+            justify-content: center;
+            gap: 10px;
+        }
+        max-width: 394px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    &__card-header {
+        width: 100%;
+        font-family: "Lato";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 50px;
+        color: $white;
+        margin: 70px 0 27px;
+    }
+    &__card-conteiner {
+        @media screen and (max-width: $screen-md) {
+            min-width: 49%;
+        }
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 164px;
+        height: 70px;
+        background: $white;
+        border-radius: 16px;
+        margin-bottom: 29px;
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 900;
+        font-size: 20px;
+        line-height: 25px;
+        text-transform: uppercase;
+        color: $eminence;
+    }
+}

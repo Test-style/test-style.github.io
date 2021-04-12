@@ -1,0 +1,96 @@
+.ad-formats-section {
+    @media screen and (max-width: $screen-md) {
+        background-size: cover;
+    }
+    padding-bottom: 81px;
+    background: url(/image/svg/background02.svg) no-repeat,
+        linear-gradient(to bottom, $mine-shaft 50%, $white 50%);
+    background-position: top;
+    &__wrapper {
+        max-width: 1109px;
+        margin: 0 auto;
+        padding-top: 113px;
+    }
+    &__caption {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 50px;
+        text-align: center;
+        text-transform: uppercase;
+        color: $white;
+        margin: 0 0 75px;
+    }
+    &__card-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+.ad-formats-card {
+    @media screen and (max-width: $screen-md) {
+        flex-wrap: wrap;
+    }
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 75px;
+    &__img-wrapper {
+        @media screen and (max-width: $screen-md) {
+            width: 100%;
+            order: 0;
+        }
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__img {
+        @media screen and (max-width: $screen-sd) {
+            width: 280px;
+        }
+        width: 320px;
+        height: 200px;
+    }
+    &__description {
+        @media screen and (max-width: $screen-md) {
+            width: 100%;
+            padding: 0 10px;
+            text-align: center;
+            order: 1;
+        }
+        width: 45%;
+    }
+    &__marker {
+        position: absolute;
+        top: 22px;
+        left: 0;
+        background: url(/image/svg/triangel.svg) no-repeat;
+        height: 28px;
+        width: 28px;
+    }
+    &__caption {
+        width: 90%;
+        display: inline-block;
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 900;
+        font-size: 21px;
+        line-height: 66px;
+        text-transform: uppercase;
+        color: $white;
+        padding-left: 25px;
+        margin: 0;
+        &-wrapper {
+            position: relative;
+        }
+    }
+    &__text {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 25px;
+        color: $lavender-gray;
+        margin: 0;
+    }
+}

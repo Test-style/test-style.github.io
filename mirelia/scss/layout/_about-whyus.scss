@@ -1,0 +1,35 @@
+.whyus-section {
+    padding: 123px 0 100px;
+    background: url(/image/svg/background06.svg) no-repeat,
+        linear-gradient(to bottom, $mine-shaft 50%, $white 50%);
+    background-position: top;
+    background-size: cover;
+    &__wrapper {
+        max-width: 988px;
+        margin: 0 auto;
+        padding: 0 10px;
+    }
+    &__caption {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 50px;
+        text-align: center;
+        text-transform: uppercase;
+        color: $white;
+        margin: 0 0 34px;
+    }
+    &__text-wrapper {
+        font-family: "Lato";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 25px;
+        color: $white;
+    }
+    &__text {
+        text-align: center;
+        margin: 0 0 40px;
+    }
+}

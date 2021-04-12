@@ -1,0 +1,192 @@
+.page-footer {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    background-color: $black;
+    color: $white;
+    &__wrapper {
+        max-width: 1110px;
+        margin: 0 auto;
+        padding: 20px 10px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    &__logo-wrapper {
+        @media screen and (max-width: $screen-md) {
+            text-align: center;
+        }
+        width: 100%;
+    }
+    &__bottom-conteiner {
+        @media screen and (max-width: $screen-md) {
+            width: 100%;
+            order: 3;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        border-top: 1px solid $ship-gray;
+        padding-top: 34px;
+        font-family: "Lato";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 27px;
+        color: $manatee;
+    }
+}
+.social-conteiner {
+    @media screen and (max-width: $screen-md) {
+        width: 100%;
+        order: 1;
+        justify-content: center;
+    }
+    display: flex;
+    flex-wrap: wrap;
+    width: 49%;
+    padding-bottom: 30px;
+    &__link {
+        width: 22px;
+        height: 22px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__description {
+        @media screen and (max-width: $screen-md) {
+            text-align: center;
+            width: 100%;
+        }
+        width: 76%;
+    }
+    &__icons {
+        @media screen and (max-width: $screen-md) {
+            justify-content: center;
+        }
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+    }
+}
+.icon {
+    display: flex;
+    &__fb {
+        margin-right: 34px;
+        background: url(/image/svg/facebook.svg) no-repeat;
+        &:hover {
+            fill: #ea5289;
+        }
+    }
+    &__in {
+        margin-right: 34px;
+        background: url(/image/svg/linkedin.svg) no-repeat;
+        &:hover {
+            fill: #ea5289;
+        }
+    }
+    &__isg {
+        margin-right: 34px;
+        background: url(/image/svg/instagram.svg) no-repeat;
+        &:hover {
+            fill: #ea5289;
+        }
+    }
+    &__tw {
+        background: url(/image/svg/twitter.svg) no-repeat;
+        &:hover {
+            fill: #ea5289;
+        }
+    }
+}
+.inform-conteiner {
+    @media screen and (max-width: $screen-md) {
+        width: 100%;
+        order: 2;
+        justify-content: center;
+    }
+    width: 49%;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+.inform {
+    &__address {
+        width: 441px;
+        font-size: 14px;
+        line-height: 22px;
+        text-align: right;
+        color: $manatee;
+    }
+    &__text {
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 22px;
+        color: $manatee;
+        & > span {
+            color: $white;
+        }
+    }
+    &__bottom-nav {
+        @media screen and (max-width: $screen-lg) {
+            width: 100%;
+            text-align: right;
+        }
+        & > ul {
+            @media screen and (max-width: $screen-lg) {
+                display: flex;
+                justify-content: space-between;
+            }
+            @media screen and (max-width: $screen-md) {
+                margin: 0;
+                justify-content: space-around;
+            }
+        }
+    }
+}
+.bottom-nav,
+.bottom-conteiner {
+    &__link {
+        display: inline-block;
+        list-style: none;
+        @media screen and (max-width: $screen-lg) {
+            margin: 0;
+        }
+        margin-left: 25px;
+        & > a {
+            color: $white;
+            transition: color 0.3s;
+            &:hover {
+                @extend %link-hover;
+            }
+        }
+    }
+}
+
+.bottom-conteiner__nav {
+    @media screen and (max-width: $screen-lg) {
+        width: 100%;
+        text-align: right;
+    }
+    @media screen and (max-width: $screen-md) {
+        order: 0;
+    }
+    & > ul {
+        @media screen and (max-width: $screen-lg) {
+            display: flex;
+            justify-content: space-between;
+            margin: 0;
+            padding: 0;
+        }
+    }
+}
+.bottom-conteiner__text {
+    @media screen and (max-width: $screen-md) {
+        font-size: 11px;
+        order: 1;
+    }
+}

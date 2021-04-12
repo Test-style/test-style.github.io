@@ -1,0 +1,115 @@
+.policy,
+.terms,
+.tracking {
+    padding: 67px 10px 151px;
+    &-page {
+        background-color: $white;
+    }
+    & a,
+    & a:link,
+    & a:visited,
+    & a:active {
+        color: $emperor;
+        text-decoration: underline;
+    }
+    &__wrapper {
+        max-width: 1109px;
+        margin: 0 auto;
+        font-family: "Lato";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 22px;
+        color: $emperor;
+        & > a.download-pdf-link {
+            position: relative;
+            font-family: "Lato";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 17px;
+            text-decoration-line: underline;
+            text-transform: uppercase;
+            padding-left: 25px;
+            color: $french-rose;
+            &:before {
+                content: "";
+                position: absolute;
+                top: -2px;
+                left: 0;
+                width: 24px;
+                height: 24px;
+                background: url(/image/svg/download.svg) no-repeat;
+            }
+        }
+        & ol {
+            padding: 0;
+        }
+    }
+    &__title {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 66px;
+        text-transform: uppercase;
+        color: $mine-shaft;
+    }
+    & a:hover {
+        color: $french-rose;
+    }
+    & p,
+    & li {
+        margin: 16px 0;
+        font-family: "Lato";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 22px;
+        color: $emperor;
+        text-transform: none;
+    }
+}
+li.policy-list__caption,
+li.terms-list__caption,
+li.tracking-list__caption,
+h2.terms-list__caption,
+h2.tracking-list__caption {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: $mine-shaft;
+}
+ol {
+    list-style: none;
+    counter-reset: li;
+}
+ol > li:before {
+    counter-increment: li;
+    content: counters(li, ".") ". ";
+}
+ul {
+    list-style-type: disc;
+}
+p.upper-text {
+    text-transform: uppercase;
+}
+span.color-text {
+    font-weight: 700;
+    font-size: 18px;
+    color: $eminence;
+}
+.tracking-table {
+    table-layout: fixed;
+    border: 1px solid black;
+    border-collapse: collapse;
+    & td,
+    & th {
+        padding: 5px;
+        border: 1px solid black;
+
+    }
+}

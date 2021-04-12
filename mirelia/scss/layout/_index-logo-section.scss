@@ -1,0 +1,24 @@
+.logo-section {
+
+    @media screen and (max-width: $screen-md) {
+        background-image: none;
+        background-color: #F1F7FD;
+    }
+    background: $white url(/image/svg/background03.svg) no-repeat;
+    &__wrapper {
+        @media screen and (max-width: $screen-lg) {
+            justify-content: center;
+        }
+        max-width: 1109px;
+        margin: 0 auto;
+        padding: 55px 10px;   
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    &__img {
+        @media screen and (max-width: $screen-lg) {
+            padding: 0 10px 15px;
+        }
+    }
+}

@@ -1,0 +1,59 @@
+.referral {
+    &-main {
+        background-color: $mine-shaft;
+    }
+    &-wrapper {
+        max-width: 1110px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 0 10px;
+
+    }
+    &__text-block {
+        @media screen and (max-width: $screen-sd) {
+            width: 100%;
+            padding: 20px 0 20px;
+        }
+        width: 49%;
+        padding: 105px 0 95px;
+    }
+    &__text-title {
+        margin: 0;
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 50px;
+        text-transform: uppercase;
+        color: $white;
+    }
+    &__text {
+        margin: 32px 0 0;
+        max-width: 512px;
+        font-family: "Lato";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 25px;
+        color: $white;
+        
+    }
+    &__picture-block {
+        @media screen and (max-width: $screen-sd) {
+            width: 100%;
+        }
+        width: 49%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__picture-wrapper {
+        width: 447px;
+        height: 336px;
+    }
+    &__picture {
+        width: 100%;
+    }
+}

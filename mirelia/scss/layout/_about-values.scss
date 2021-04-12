@@ -1,0 +1,14 @@
+.values-section {
+    padding: 158px 10px 100px;
+    background: $white url(/image/svg/background08.svg) no-repeat;
+    background-size: cover;
+    &__wrapper {
+        padding-bottom: 0;
+    }
+    &__img-caption {
+        color: $white;
+    }
+    &__caption {
+        color: $white;
+    }
+}

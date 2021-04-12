@@ -1,0 +1,110 @@
+.advertisers {
+    &-main {
+        background-color: $mine-shaft;
+    }
+    &-withus {
+        max-width: 1110px;
+        margin: 0 auto;
+        padding: 104px 10px 135px;
+        &__wrapper {
+            @media screen and (max-width: $screen-md) {
+                flex-wrap: wrap;
+            }
+            display: flex;
+            justify-content: space-between;
+        }
+        &__payment-method {
+            @media screen and (max-width: $screen-md) {
+                max-width: 100%;
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+            }
+            max-width: 412px;
+        }
+    }
+    &__advantages {
+        padding-left: 25px;
+        max-width: 610px;
+    }
+}
+.payment-method {
+    &__title {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 50px;
+        text-transform: uppercase;
+        color: $french-rose;
+        margin: 0;
+    }
+    &__subtitle {
+        @media screen and (max-width: $screen-md) {
+            text-align: center;
+        }
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 50px;
+        text-transform: uppercase;
+        color: $white;
+        margin: 0;
+    }
+    &__img-wrapper {
+        max-width: 240px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    &__img-header {
+        width: 100%;
+        font-family: "Lato";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 50px;
+        color: $white;
+        margin: 0;
+    }
+    &__img-conteiner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 102px;
+        height: 102px;
+        background: $white;
+        border-radius: 20px;
+        margin-bottom: 29px;
+    }
+}
+.advantages {
+    &__title {
+        position: relative;
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 900;
+        font-size: 21px;
+        line-height: 25px;
+        text-transform: uppercase;
+        color: $white;
+        &::before {
+            content: "";
+            position: absolute;
+            top: 2px;
+            left: -25px;
+            background: url(/image/svg/triangel.svg) no-repeat;
+            height: 28px;
+            width: 28px;
+        }
+    }
+    &__description {
+        font-family: "Lato";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 25px;
+        color: $white;
+    }
+}

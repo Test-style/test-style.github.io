@@ -1,0 +1,228 @@
+main.blog-page-main {
+    background-color: $mine-shaft;
+}
+.blog-section {
+    @media screen and (max-width: $screen-md) {
+        justify-content: space-around;
+    }
+    @media screen and (max-width: $screen-sd) {
+        justify-content: center;
+    }
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 20px 10px 119px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    &__header {
+        width: 100%;
+        margin: 0;
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 50px;
+        text-align: center;
+        text-transform: uppercase;
+        color: $white;
+    }
+}
+.blog-content {
+    width: 100%;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: normal;
+    color: $emperor;
+    &__controls {
+        @media screen and (max-width: $screen-md) {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 81px 0 0;
+    }
+    &__filters {
+        @media screen and (max-width: $screen-md) {
+            flex-basis: 100%;
+        }
+        flex-basis: 50%;
+        display: flex;
+        justify-content: space-between;
+    }
+    &-filter {
+        &__btn {
+            @media screen and (max-width: $screen-sd) {
+                padding: 3px 3px;
+            }
+            padding: 9px 17px 10px;
+            border: none;
+            border-radius: 8px;
+            background-color: $white;
+            cursor: pointer;
+            transition: 0.3s;
+            &:hover {
+                @extend %link-hover;
+            }
+            &_active {
+                color: $white;
+                background-color: $french-rose;
+                transition: 0.3s;
+                &:hover {
+                    color: $white;
+                    @extend %btn-hover;
+                }
+            }
+        }
+    }
+    &__search {
+        @media screen and (max-width: $screen-md) {
+            width: auto;
+            margin-top: 20px;
+        }
+        width: 326px;
+        height: 44px;
+        background-color: $white;
+        border-color: $mine-shaft;
+        border-radius: 6px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 17px;
+    }
+    &__field {
+        @media screen and (max-width: $screen-sd) {
+            max-width: 230px;
+        }
+        border: none;
+        outline: none;
+        -webkit-appearance: none;
+        width: 282px;
+        vertical-align: middle;
+    }
+    &__search-btn {
+        width: 44px;
+        height: 44px;
+        padding: 0;
+        background: $french-rose;
+        border: none;
+        border-radius: 0px 6px 6px 0px;
+        background-image: url(/image/svg/blog-lens.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+        cursor: pointer;
+        transition: 0.3s;
+        &:hover {
+            @extend %btn-hover;
+        }
+    }
+    &__card-conteiner {
+        @media screen and (max-width: 620px) {
+            justify-content: center;
+            padding: 30px 0 30px;
+        }
+        padding: 79px 0 86px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    &-card {
+        @media screen and (max-width: 620px) {
+            max-width: 328px;
+        }
+        margin-bottom: 61px;
+        max-width: 328px;
+        height: 430px;
+        border-radius: 20px;
+        overflow: hidden;
+        background-color: $white;
+        &__text-wraper {
+            padding: 32px 35px 0;
+            & > p {
+                margin: 0;
+            }
+        }
+        &__date {
+            position: relative;
+            padding-left: 27px;
+            font-size: 16px;
+            line-height: 25px;
+            text-align: left;
+            color: $eminence;
+            &::before {
+                content: "";
+                position: absolute;
+                top: 3px;
+                left: 0px;
+                width: 18px;
+                height: 23px;
+                background-image: url(/image/svg/blog-calendar-icon.svg);
+            }
+        }
+        &__caption {
+            margin: 16px 0 6px;
+            font-family: "Montserrat";
+            font-style: normal;
+            font-weight: 900;
+            font-size: 21px;
+            line-height: 25px;
+            text-transform: uppercase;
+            color: $eminence;
+        }
+        &__description {
+            position: relative;
+            font-size: 18px;
+            line-height: 25px;
+            color: $emperor;
+            &::after {
+                content: "";
+                width: 32px;
+                height: 20px;
+                position: absolute;
+                bottom: 2px;
+                right: 17px;
+                background: linear-gradient(
+                    to right,
+                    rgba(255, 255, 255, 0),
+                    rgba(255, 255, 255, 1)
+                );
+            }
+        }
+    }
+    &__page-navigation {
+        @media screen and (max-width: $screen-md) {
+            display: flex;
+            justify-content: space-around;
+        }
+        text-align: center;
+    }
+}
+.blog-content-navigation {
+    &__btn {
+        width: 44px;
+        height: 44px;
+        border: none;
+        background: $white;
+        border-radius: 8px;
+        margin-right: 11px;
+        cursor: pointer;
+        transition: 0.3s;
+        &:hover {
+            @extend %link-hover;
+        }
+        &:last-of-type {
+            margin-right: 0;
+        }
+        &_active {
+            color: $white;
+            background: $french-rose;
+            border-radius: 8px;
+            &:hover {
+                color: $white;
+                @extend %btn-hover;
+            }
+        }
+    }
+}

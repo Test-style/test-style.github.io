@@ -1,0 +1,87 @@
+.error-header {
+    background-color: $white;
+    padding: 14px 10px;
+    filter: drop-shadow(0px 2px 10px rgba(0, 0, 0, 0.1));
+    display: flex;
+    justify-content: space-between;
+    &__btn {
+        width: 20px;
+        height: 34px;
+        background: url(/image/svg/error-select.svg) no-repeat;
+        background-position: center;
+        border: none;
+        color: transparent;
+    }
+}
+.error {
+    &-main {
+        background-color: $white;
+    }
+    &-wrapper {
+        max-width: 1058px;  
+        margin: 0 auto;
+        height: calc(100vh - 69px);
+        position: relative;
+    }
+    &__bcg-img {
+        @media screen and (max-width: $screen-md) {
+            top: 20px;
+            left: 10px;
+        }
+        @media screen and (max-width: $screen-sd) {
+            top: 5px;
+            left: 10px;
+        }
+        width: 79.68%;
+        height: auto;
+        position: absolute;
+        top: 157px;
+        left: 5px;
+        z-index: 1;
+    }
+    &__text-wrapper {
+        @media screen and (max-width: $screen-md) {
+            top: 20px;
+            right: 10px;
+            max-width: 49%;
+        }
+        @media screen and (max-width: $screen-sd) {
+            top: 40%;
+            left: 10px;
+            max-width: 100%;
+        }
+        max-width: 426px;
+        position: absolute;
+        top: 120px;
+        right: 5px;
+        z-index: 2;
+        & > h1 {
+            @media screen and (max-width: $screen-md) {
+                margin: 0;
+                font-size: 24px;
+                line-height: 30px;
+            }
+            text-align: left;
+            font-family: "Lato";
+            font-style: normal;
+            font-weight: 800;
+            font-size: 38px;
+            line-height: 50px;
+            text-align: center;
+            color: #36274e;
+        }
+        & > p {
+            @media screen and (max-width: $screen-md) {
+                margin: 0;
+                font-size: 13px;
+                line-height: 17px;
+            }
+            font-family: "Lato";
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 24px;
+            color: #524c4c;
+        }
+    }
+}

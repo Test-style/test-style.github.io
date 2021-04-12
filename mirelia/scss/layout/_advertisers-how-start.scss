@@ -1,0 +1,78 @@
+.advertisers-how-start {
+    padding-bottom: 134px;
+    background: url(/image/svg/background11.svg) no-repeat;
+    background-position-y: -45px;
+    background-size: cover;
+    &__wrapper {
+        max-width: 900px;
+        margin: 0 auto;
+        padding-top: 56px;
+        text-align: center;
+    }
+    &__caption {
+        width: 100%;
+        margin: 0;
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 66px;
+        text-align: center;
+        text-transform: uppercase;
+        color: $black;
+    }
+}
+.number-block {
+    display: flex;
+    justify-content: space-between;
+    margin: 68px 0 78px;
+    &__point-wrapper {
+        width: 176px;
+        text-align: center;
+    }
+    &__point {
+        @media screen and (max-width: $screen-sd) {
+            width: 50px;
+        }
+        position: relative;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 78px;
+        height: 78px;
+        background: $eminence;
+        border-radius: 18px;
+        font-family: "Lato";
+        font-style: normal;
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 25px;
+        color: $white;
+    }
+    &__arrow {
+        @media screen and (max-width: $screen-sd) {
+            display: none;
+        }
+        position: absolute;
+        width: 135px;
+        height: 101px;
+        top: -40px;
+        right: -110px;
+        background: url(/image/svg/advertisers-arrow.svg) no-repeat;
+    }
+    &__text {
+        @media screen and (max-width: $screen-sd) {
+            font-size: 14px;
+            line-height: 18px;
+        }
+        width: 100%;
+        margin-top: 36px;
+        font-family: "Lato";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 25px;
+        color: $emperor;
+    }
+}
